@@ -1,6 +1,7 @@
 <?php 
 /* use Zend Db from within ordinary, non-framework PHP, to implement LIMIT/OFFSET-like functionality.
  * Note: ZF2 2.3 or higher is required
+ * Assume ZF2 library folder is in PHP's include path. If not, add it using set_include_path().
  */
 use Zend\Db\Sql\Sql;
 use Zend\Db\Adapter\Adapter;
